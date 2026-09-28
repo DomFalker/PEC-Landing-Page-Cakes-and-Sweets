@@ -1,1 +1,18 @@
-Read me 
+Projeto de Faculdade Projeto Extensionista para Micro e Pequenos Empreededores
+
+Nome do projeto: Cakes and Bakes
+
+Universidade Cesmac Maceió/AL
+
+Período atual: 4°
+
+Professor Responsável:
+    - Carlos
+
+Alunos:
+- Arthur Abreu Soares
+- Julius Wanderley Fontes
+- Tonin Mamador  
+- Flávio animes
+- Alicia Mathias
+- Daniel de Jesus
