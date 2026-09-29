@@ -1,19 +1,44 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+<!DOCYTPE html>
+<html lang="pt-BR" class="scroll-smooth">
     <head>
-        <meta charset="UTF-8">
-            <link rel="stylesheet" href="style.css">
-            <title>Cakes and Bakes</title>
-    </head>
-    <body>
-        <h1>Bolo grátis não existe</h1>
-        <p id="msg">Pague ou coma o seu coração</p>
-        <button id="button">Clique Aqui para comer a sua mão</button> 
-        <button id="button2">Ou clique aqui para comer bolo</button>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="widtdevice-width, initial-scale=1.0">
+        <tittle>Nome do site doqual não sei</tittle>
+        <script src="https://cdn.tailwindcss.com"></script>
     
-        <h4 id ="psf">Flávio cuidado com a ia, sei que ela é sedutora mas cuidado, não é possível trocar seus olhos por os de um anime</h4>
-        <h4>Não Insista porfavor</h4>
+        <script>
+            tailwind.config = {
+                theme: {
+                    extend: {
+                        colors: {
+                            brand: '#3B82F6'
+                        }
+                    }
+                }
+            }
+        </script>
+    </head>
+    <body class="antialiased min-h-screen">
+        <header class="sticky top-0 z-50 bg-slate-950/80 backdrop-blur-md border-slate-800">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+                <a href="#" class="felx items-center gap-2 font-bold text-xl text-amber-500 tracking-wide">
+                    <span class="text-2xl">🍔</span>
+                    <span>Bolo em forma de hambúrgue</span>
+                </a>
+
+                <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-300">
+                    <a href="#cardapio" class="hover:text-amber-500 transition-colors">Cardápio</a>
+                    <a href="#sobre" class="hover:text-amber-500 transition-colors">Sobre Nós</a>
+                    <a href="#depoimento" class="hover:text-amber-500 transition-colors">Avaliações</a>
+                    <a href="#contato" class="hover:text-amber-500 transition-colors">Contato</a>
+                </nav>
+                <div>
+                    <a href="#pedir" class="inline-flex items-center justify-center px-5 py-2.5 rounded-full bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold text-sm transition-all shadow-lg shadow-amber-500/20 active:scale-95">Fazer Pedi</a>
+                </div>
+            
+            
+            </div>
+        </header>
+
     </body>
-
-
 </html>
