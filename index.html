@@ -1,9 +1,9 @@
-<!DOCYTPE html>
+<!DOCTYPE html>
 <html lang="pt-BR" class="scroll-smooth">
     <head>
         <meta charset="UTF-8" />
-        <meta name="viewport" content="widtdevice-width, initial-scale=1.0">
-        <tittle>Site de Confeitaria Artesanal</tittle>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Site de Bolos Caseiros Artesanais Maira Lessa</title>
         <script src="https://cdn.tailwindcss.com"></script>
     
         <script>
@@ -15,13 +15,21 @@
                         sans:['"Plus Jakarta Sans"', 'sans-serif'],
                        },
                        colors:{
-                        cream:{
-                            50: '#FAF7F2',
-                            100: '#F4EFE6',
-                            200: '#E6DCCF',
+                        tiffany:{
+                            50: '#F0F9F8',
+                            100: '#E1F3F1',
+                            200: '#C2E7E3',
+                            600: '#00A896',
+                            700: '#008B7D',
+                            800: '#006E63',
+                            900: '#053C37',
                         },
-                        bronze:{
-                            700: '#8A5A38',
+                        gold:{
+                            100: '#FAF3E0',
+                            300: '#E6C687',
+                            500: '#D4AF37',
+                            600: '#C59B27',
+                            700: '#A37E1C',
                         }
                        }
                     }
@@ -29,25 +37,247 @@
             }
         </script>
     </head>
-    <body class="antialiased min-h-screen">
-        <header class="sticky top-0 z-50 bg-cream-50/90 backdrop-blue-md border-b border-cream-200 text-stone-800">
+    
+    <body class="bg-tiffany-50 text-tiffany-900 antialiased min-h-screen">
+        <header class="sticky top-0 z-50 bg-tiffany-50/90 backdrop-blur-md border-b border-tiffany-200 text-tiffany-900">
             <div class="max-w-7xl mx-auto px-6 lg:px-12 h-24 flex items-center justify-between">
                 <a href="#" class="flex flex-col items-start group">
-                    <span class="font-serif text-2xl lg:text-3xl tracking-wider text-stone-900 group-hover:text-bronze-700 transition-colors">
-                        Maison du Gâteau
+                    <span class="font-serif text-2xl lg:text-3xl tracking-wider text-tiffany-900 group-hover:text-gold-600 transition-colors">
+                        Maira Lessa 
                     </span>
-                    <span  class="text-[10px] tracking-[0.25em] uppercase text-stone-500 -mt-1 font-sans font-light">
-                        Atêlie de Bolos e Confeitaria Artesanal
+                    <span class="text-[10px] tracking-[0.25em] uppercase text-gold-700 -mt-1 font-sans font-semibold">
+                        Bolos Artesanais Caseiros
                     </span>
                 </a>
-                <nav class="hidden md:flex items-center gap-10 font-sans text-xs uppercase tracking-[0.2em] text-stone-600">
-                    <a href="#colecoes" class="hover:text-stone-900 transition-colors py-1 relative after:content-[''] after:absolute after:bottom-0 after:w-0  after:left-0 safter:h-[1px] after:bg-stone-800 hover:after:w-full after:transition-all">Coleções</a>
-                    <a href="#encomendas" class="hover:text-stone-900 transition-colors py-1 relative after:content-[''] after:absolute after:bottom-0 after:w-0 after:left-0 after:h-[1px] after:bg-stone-800 hover:after:w-full after:transition-all">Sob-Encomenda</a>
-                    <a href="#SobreNos" class="hover:text-stone-900 transition-colors py-1 relative after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[1px] after:bg-stone-800 hover:after:w-full after:transition-all">Sobre nós</a>
-                    <a href="#Contatos" class="hover:text-stone-900 transition-colors py-1 relative after:conten-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[1px] after:bg-stone-800 hover:after:w-full after:transition-all">Contatos para Orçamento</a>
+                <nav class="hidden md:flex items-center gap-10 font-sans text-xs uppercase tracking-[0.2em] text-tiffany-800">
+                    <a href="#encomendas" class="hover:text-gold-600 transition-colors py-1 relative after:content-[''] after:absolute after:bottom-0 after:w-0 after:left-0 after:h-[1px] after:bg-gold-500 hover:after:w-full after:transition-all">Sobre as Encomendas</a>
+                    <a href="#SobreNos" class="hover:text-gold-600 transition-colors py-1 relative after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[1px] after:bg-gold-500 hover:after:w-full after:transition-all">Sobre nós</a>
                 </nav>
             </div>
         </header>
 
+        <main class="bg-tiffany-50 text-tiffany-900">
+          <section class="max-w-7xl mx-auto px-6 lg:px-12 py-12 lg:py-20">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+              <div class="space-y-6">
+                <!-- instagram-->
+                <div class="inline-flex items-center gap-3 p-2 pr-4 bg-tiffany-100 rounded-full border border-tiffany-200">
+                  <img src="imgs/perfil-instagram.png" alt="Instagram_oficial" class="w-10 h-10 rounded-full object-cover border border-tiffany-300">
+                  <div class="text-left">
+                    <p class="text-[10px] uppercase tracking-wider text-gold-700 font-sans font-semibold">Chef Confeiteira</p>
+                    <p class="text-xs font-semibold text-tiffany-900 font-sans">@bolos_artesanais_caseiro</p>
+                  </div>
+                </div>
+                <!-- Título -->
+                <h1 class="font-serif text-4xl sm:text-5xl font-normal leading-tight text-tiffany-900">
+                  Bolos afetivos e artesanais feitos sob encomenda.
+                </h1>
+
+                <!-- Descrição -->
+                <p class="text-tiffany-800 text-base leading-relaxed font-light">
+                  Cada receita carrega o cuidado da alta confeitaria com ingredientes selecionados. Escolha o seu sabor e faça o pedido direto pelo WhatsApp.
+                </p>
+
+                <!-- Botão -->
+                <div class="pt-2">
+                  <a href="https://wa.me/82999143424" target="_blank" class="inline-block px-8 py-3.5 bg-gold-500 text-tiffany-900 font-sans text-xs font-semibold uppercase tracking-[0.15em] hover:bg-gold-600 transition-colors shadow-sm rounded-md">
+                    Nos Chame pelo WhatsApp: 82 999143424
+                  </a>
+                </div>
+
+              </div>
+
+              <!-- Fotos -->
+              <div class="grid grid-cols-2 gap-4">
+                <div class="overflow-hidden rounded-lg shadow-sm">
+                  <img src="imgs/fotoBolo1.png" alt="Bolo Artesanal 1" class="w-full h-72 object-cover hover:scale-105 transition-transform duration-500">
+                </div>
+                <div class="overflow-hidden rounded-lg shadow-sm mt-6">
+                  <img src="imgs/fotoBolo2.png" alt="Bolo Artesanal 2" class="w-full h-72 object-cover hover:scale-105 transition-transform duration-500">
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- SEÇÃO SOBRE NÓS -->
+          <section id="SobreNos" class="py-20 lg:py-28 bg-white border-t border-tiffany-200">
+            <div class="max-w-7xl mx-auto px-6 lg:px-12">
+              <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+                
+                <div class="lg:col-span-5 relative">
+                  <div class="relative overflow-hidden rounded-xl shadow-md aspect-[4/5] bg-tiffany-100">
+                    <img src="imgs/sobreNos2.png" alt="História da Confeiteira" class="w-full h-full object-cover">
+                  </div>
+                  
+                  <div class="absolute -bottom-6 -right-6 bg-tiffany-50 border border-tiffany-200 p-6 rounded-lg shadow-lg hidden sm:block max-w-xs">
+                    <p class="font-serif italic text-tiffany-900 text-sm">
+                      "Cada bolo eterniza um momento, um sentimento, uma vida!"
+                    </p>
+                  </div>
+                </div>
+
+                <div class="lg:col-span-7 space-y-6">
+                  <span class="text-xs uppercase tracking-[0.2em] text-gold-600 font-sans font-semibold">Nossa História</span>
+                  
+                  <h2 class="font-serif text-3xl sm:text-4xl lg:text-5xl font-normal text-tiffany-900 leading-tight"> 
+                    Feito à mão, com alma, amor e criatividade.
+                  </h2>
+
+                  <div class="space-y-4 text-tiffany-800 font-light text-base leading-relaxed">
+                    <p>
+                      Tudo havia começado como um pequeno hobby artesanal para se passar o tempo e logo após muitas horas praticando, rindo e melhorando as técnicas.
+                    </p>
+                    <p>
+                      Foi então que percebemos prazer que era realizar a ação de criar bolos, foi então que ao receber um carrinho antigo de um amigo foi decidido que deveríamos reformá-lo e então tentar a sorte como uma loja! Fazendo o nosso hobby uma forma de renda estável e saudável para se espalhar amor e criatividade!
+                    </p>
+                  </div>
+
+                  <div class="pt-4 border-t border-tiffany-200 flex items-center gap-4">
+                    <div>
+                      <p class="font-serif text-xl text-tiffany-900">Maira Lessa</p>
+                      <p class="text-xs text-gold-700 uppercase tracking-widest font-sans font-semibold">Bolos Caseiros e Artesanais</p>
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+          </section>
+
+          <!-- SEÇÃO ENCOMENDAS -->
+          <section id="encomendas" class="py-20 lg:py-28 bg-tiffany-50 border-t border-tiffany-200">
+            <div class="max-w-7xl mx-auto px-6 lg:px-12 space-y-16">
+
+              <div class="max-w-3xl mx-auto text-center space-y-4">
+                <span class="text-xs uppercase tracking-[0.2em] text-gold-600 font-sans font-semibold">
+                  Opções & Atendimento
+                </span>
+                <h2 class="font-serif text-3xl sm:text-4xl lg:text-5xl font-normal text-tiffany-900">
+                  Como funcionam nossas encomendas
+                </h2>
+                <p class="text-tiffany-800 font-light text-base leading-relaxed">
+                  Produzimos bolos de forma especial e elegante, assim como seu evento! Desde festas de aniversários, reencontros e até eventos casuais! Podendo os bolos e tortas serem doces ou salgados!
+                </p>
+              </div>
+
+              <!-- 4 Fotos -->
+              <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                
+                <div class="group relative overflow-hidden rounded-xl bg-white border border-tiffany-200 shadow-sm">
+                  <img src="imgs/bolo4-1.png" alt="Bolo de festa" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-500">
+                  <div class="p-4 text-center">
+                    <h3 class="font-serif text-lg text-tiffany-900">Bolos de Festa</h3>
+                    <p class="text-xs text-tiffany-700 font-light mt-1">Desenvolvidos sob medida</p>
+                  </div>
+                </div>
+
+                <div class="group relative overflow-hidden rounded-xl bg-white border border-tiffany-200 shadow-sm">
+                  <img src="imgs/bolo4-2mini.png" alt="Bolo simples" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-500">
+                  <div class="p-4 text-center">
+                    <h3 class="font-serif text-lg text-tiffany-900">Pequenos e Perfeitos</h3>
+                    <p class="text-xs text-tiffany-700 font-light mt-1">Ideais para pequenas comemorações</p>
+                  </div>
+                </div>
+
+                <div class="group relative overflow-hidden rounded-xl bg-white border border-tiffany-200 shadow-sm">
+                  <img src="imgs/bolo4-2.png" alt="Conjuto de bolos e tortas" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-500">
+                  <div class="p-4 text-center">
+                    <h3 class="font-serif text-lg text-tiffany-900">Bolos e Conjuntos</h3>
+                    <p class="text-xs text-tiffany-700 font-light mt-1">Conjuntos Completos para o seu evento</p>
+                  </div>
+                </div>
+
+                <div class="group relative overflow-hidden rounded-xl bg-white border border-tiffany-200 shadow-sm">
+                  <img src="imgs/bolo4-4.png" alt="Bolo Grande e decorado" class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-500">
+                  <div class="p-4 text-center">
+                    <h3 class="font-serif text-lg text-tiffany-900">Bolos para grandes eventos</h3>
+                    <p class="text-xs text-tiffany-700 font-light mt-1">Bolos maiores para emoções maiores</p>
+                  </div>
+                </div>
+
+              </div>
+
+              <!-- BANNER -->
+              <div class="relative overflow-hidden rounded-2xl bg-tiffany-900 text-tiffany-50 p-8 lg:p-12">
+                <img src="imgs/banner1.png" alt="Promoção do Ateliê" class="absolute inset-0 w-full h-full object-cover opacity-25 mix-blend-overlay">
+
+                <div class="relative z-10 max-w-2xl space-y-6">
+                  <span class="inline-block px-3 py-1 rounded-full bg-gold-500/20 text-gold-300 text-xs tracking-wider uppercase font-sans border border-gold-500/30 font-semibold">
+                    Atendimento Direto
+                  </span>
+                  
+                  <h3 class="font-serif text-3xl sm:text-4xl font-normal leading-tight">
+                    Pronto para planejar o seu bolo dos sonhos?
+                  </h3>
+                  
+                  <p class="text-tiffany-100 font-light text-sm sm:text-base leading-relaxed">
+                    Atendemos via WhatsApp para orçamentos rápidos e detalhados. Acompanhe também nossa rotina diária e novidades pelo Instagram.
+                  </p>
+
+                  <div class="flex flex-col sm:flex-row gap-4 pt-2">
+                    <a href="https://wa.me/82999143424" target="_blank" class="inline-flex items-center justify-center gap-3 px-6 py-3.5 bg-emerald-600 hover:bg-emerald-500 text-white font-sans text-xs uppercase tracking-[0.15em] transition-colors rounded-md shadow-md font-semibold">
+                      <span>💬</span> WhatsApp
+                    </a>
+
+                    <a href="https://www.instagram.com/bolos_artesanais_caseiro/" target="_blank" class="inline-flex items-center justify-center gap-3 px-6 py-3.5 bg-tiffany-800 hover:bg-tiffany-700 border border-tiffany-700 text-tiffany-50 font-sans text-xs uppercase tracking-[0.15em] transition-colors rounded-md font-semibold">
+                      <span>📷</span> Instagram
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </section>
+        </main>
+
+        <!-- RODAPÉ -->
+        <footer class="bg-tiffany-900 text-tiffany-100 border-t border-tiffany-800">
+          <div class="max-w-7xl mx-auto px-6 lg:px-12 py-16">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+              
+              <div class="space-y-4">
+                <a href="#" class="flex flex-col items-start">
+                  <span class="font-serif text-2xl tracking-wider text-tiffany-50">
+                    Maira Lessa
+                  </span>
+                  <span class="text-[9px] tracking-[0.25em] uppercase text-gold-300 font-sans font-semibold">
+                    Ateliê de Bolos & Tortas
+                  </span>
+                </a>
+                <p class="text-xs text-tiffany-200 font-light leading-relaxed">
+                  Alta confeitaria artesanal feita sob medida para celebrações inesquecíveis.
+                </p>
+              </div>
+
+              <div class="space-y-4">
+                <h4 class="font-serif text-base text-gold-300 tracking-wide">Atendimento</h4>
+                <div class="text-xs text-tiffany-200 font-light space-y-1.5">
+                  <p class="text-gold-400 font-semibold">Segunda a Sábado</p>
+                  <p>10:00 às 18:00</p>
+                  <p class="pt-2 text-tiffany-300">Retiradas e entregas com agendamento prévio.</p>
+                </div>
+              </div>
+
+              <div class="space-y-4">
+                <h4 class="font-serif text-base text-gold-300 tracking-wide">Redes & Pedidos</h4>
+                <div class="flex flex-col space-y-2.5 text-xs text-tiffany-200">
+                  <a href="https://wa.me/82999143424" target="_blank" class="flex items-center gap-2 hover:text-gold-300 transition-colors">
+                    <span>💬</span> (82) 99914-3424
+                  </a>
+                  <a href="https://www.instagram.com/bolos_artesanais_caseiro/" target="_blank" class="flex items-center gap-2 hover:text-gold-300 transition-colors">
+                    <span>📷</span> @bolos_artesanais_caseiro
+                  </a>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="mt-12 pt-8 border-t border-tiffany-800/80 flex flex-col sm:flex-row items-center justify-between text-[11px] text-tiffany-300 font-light gap-4">
+              <p>© 2026 Maira Lessa. Todos os direitos reservados.</p>
+              <p class="tracking-wider">Desenvolvido com sofisticação pelo grupo CESMAC PEC.</p>
+            </div>
+          </div>
+        </footer>
     </body>
 </html>
