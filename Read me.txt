@@ -1,13 +1,13 @@
 Projeto de Faculdade Projeto Extensionista para Micro e Pequenos Empreededores
 
-Nome do projeto: Cakes and Bakes
+Nome do projeto: Cakes and Sweets
 
 Universidade Cesmac Maceió/AL
 
 Período atual: 4°
 
 Professor Responsável:
-    - Carlos
+    - Carlos Alberto Correia Lessa Filho
 
 Alunos:
 - Arthur Abreu Soares
